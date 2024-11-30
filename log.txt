@@ -1,3 +1,20 @@
 WARNING:root:some warning
 ERROR:root:some Error
 CRITICAL:root:some critical message
+INFO:root:A new Request comes....
+INFO:root:The request processing completes....
+INFO:root:A new Request comes....
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "H:\Advanced Python\LoggingExample.py", line 8, in <module>
+    print("The Division of two numbers is:",x/y)
+                                            ~^~
+ZeroDivisionError: division by zero
+INFO:root:The request processing completes....
+INFO:root:A new Request comes....
+ERROR:root:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "H:\Advanced Python\LoggingExample.py", line 7, in <module>
+    y=int(input("Enter number2:"))
+ValueError: invalid literal for int() with base 10: 'ten'
+INFO:root:The request processing completes....
