@@ -1,0 +1,5 @@
+01/12/2024 07:02:57 PM - DemoLogger - DEBUG - some DEBUG message
+01/12/2024 07:02:57 PM - DemoLogger - INFO - some INFO message
+01/12/2024 07:02:57 PM - DemoLogger - WARNING - some WARNING message
+01/12/2024 07:02:57 PM - DemoLogger - ERROR - some ERROR message
+01/12/2024 07:02:57 PM - DemoLogger - CRITICAL - some CRITICAL message
