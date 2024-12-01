@@ -12,7 +12,18 @@ print("is the file closed:",f.closed)
 f.close()
 print("is the file closed:",f.closed)
 
+#Writting into file using write mode and write().
+f=open('Rishi.txt','w')
+f.write('Rishabh\n')
+f.write('IACSD\n')
+f.write('CDAC\n')
+f.write('SGGS\n')
+f.close()
 
 
+#Writting into file using append mode and writelines().
+f=open('Rishi.txt','a')
+f.writelines(['Rishabh\n','IACSD\n','CDAC\n','SGGS\n'])
+f.close()
 
 
