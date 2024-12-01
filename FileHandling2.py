@@ -20,4 +20,12 @@ print("Reading only 1 line of data completes....")
 print(line)
 f.close()
 
+#using readlines()
+f=open('Rishi.txt','r')
+lines=f.readlines() #To read all lines of data into the list from file
+print("Reading all lines of data completes....")
+for line in lines:
+    print(line,end='')
+f.close()
+
 
