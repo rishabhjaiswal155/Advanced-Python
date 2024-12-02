@@ -14,3 +14,15 @@ with open('emp.csv','w',newline='') as f:
         w.writerow([eno,ename,esal,eaddr])
 print("Total Employee Data inserted into csv file:",f.name)
 
+#Reading employee data from csv file nd print it to console
+
+import csv
+with open('emp.csv','r',newline='') as f:
+    r=csv.reader(f) #returns the reader object pointing to f
+    data=list(r)
+    print("Reading data from csv file",f.name)
+    for line in data:
+        for word in line:
+            print(word,'\t',end='')
+        print()
+
