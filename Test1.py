@@ -6,6 +6,7 @@ class Test1:
 		self.a=100 #Declaring instance variable inside constructor
 	def m1(self):
 		self.b=200 #Declaring instance variable inside instance method
+        
 t=Test1()
 print(t.__dict__) #This property returns the key value pair of all instance variables declare.
 t.m1()
