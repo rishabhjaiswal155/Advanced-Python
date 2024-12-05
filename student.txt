@@ -1,5 +1,1 @@
 INFO:root:Info from student module
-INFO:root:some INFO message from RootLoggerProblem module
-WARNING:root:some WARNING message
-ERROR:root:some ERROR message
-CRITICAL:root:some CRITICAL message from RootLoggerProblem module
